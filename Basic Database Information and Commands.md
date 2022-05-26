@@ -18,13 +18,13 @@ Basic Database Information and Commands
         		RENAME:--> This is used to rename an object existing in the database
 
     	-Data Manipulation Language: Allows you to update, add, or delete query data.
-    		GRANT:--> This command gives users access privileges to the database.
-                        REVOKE:--> This command withdraws the user’s access privileges given by using the GRANT command.
+    			INSERT :--> It is used to insert data into a table.
+                UPDATE:--> It is used to update existing data within a table.
+                DELETE :--> It is used to delete records from a database tab
 
     	-Data Control Language: Allows admins to grant or revoke privileges and roles from other users.
-    		INSERT :--> It is used to insert data into a table.
-                        UPDATE:--> It is used to update existing data within a table.
-                        DELETE :--> It is used to delete records from a database tab
+    			GRANT:--> This command gives users access privileges to the database.
+                REVOKE:--> This command withdraws the user’s access privileges given by using the GRANT command.
 
     	-Data Query Language: Allows users to retrieve data (The select command).
     		SELECT: It is used to retrieve data from the database.
@@ -169,4 +169,3 @@ Basic Database Information and Commands
 
     		TRUNCATE - Truncates number to specific number of decimals
     				Example: select truncate (345.3456, 2); = 345.34
-
