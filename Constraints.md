@@ -14,10 +14,6 @@
     	FOREIGN KEY - Used to link tables together
     			How to use: CREATE TABLE EX([column1], [column2], foreign key([column name that should be foreign key]) references [table_name]([primary key of the table]));
 
-                OR
-
-                How to use: [column_name] [data_type] foreign key references [table_name]([primary key of the table]),
-
     	CHECK - Gives the column set rules it has to first abide by, else the data is considered invalid.
     		How to use (REMEMBER THIS GOES AFTER THE COLUMNS): [column1 details], [column2 details], constraint ([constraint detail])
     			Example: create table Ex  (name varchar(10) not null, age int, check (Age > 18);
