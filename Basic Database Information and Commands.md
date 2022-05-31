@@ -127,11 +127,6 @@ Basic Database Information and Commands
     			Inside of offset would be rows you want excluded.
     	GROUP BY
     		Aggregrate functions
-    			Count= Counts amount of rows in a column.
-    			Sum= Adds all the values in a column.
-    			Min= Returns the lowest value.
-    			Max= Returns the highest value.
-    			Avg= Calculates the average value of everything.
 
 ## Arithmetic Operators
 
@@ -149,6 +144,8 @@ Basic Database Information and Commands
     		Min() - Returns lowest number.
     		FIrst() -
     		Last() -
+    		Avg() - Calculates the average value of everything.
+    		Sum() - Adds all the values in a column.
 
 ## Numeric Functions
 
