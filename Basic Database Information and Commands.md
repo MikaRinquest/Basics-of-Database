@@ -106,15 +106,30 @@ Basic Database Information and Commands
 
     show tables; (Shows available tables in the database)
     	describe __; (Shows the content of a table shown)
+        
     	select * from [tablename]; (Displays the contents of a table)
+        
     	insert into [tablename] values ____; (Inserts data into the columns)
+        
+        Example:INSERT INTO users(fullname,type,email,password,shipping_address,phone_number) VALUES (
+                -> "Mika Rinquest",
+                -> "Admin",
+                -> "mikar@gmail.com",
+                -> "dog",
+                -> "home",
+                -> 0123456);
+                
     	alter table ____; (Changes elements of a table)
     		change column [original column name] [new column name] [constraint] [extra] (Changes name of column)
     		add column _____ (Adds a new column)
     		drop column ____ (Deletes column specified)
+            
     	drop ____; (Completely wipes out whatever is chosen)
+        
     	truncate table [tablename]; (Used to delete all the contents in a table)
+        
     	/*[content*/ ; (Used to add comments)
+        
     	rename [oldname] to [newname]; (Renames a table or database)
 
 ## Operators
