@@ -89,6 +89,7 @@ Basic Database Information and Commands
     		auto-_increment(start)= Tells the table to start with a specific number. Every number after the first will have one added to it.
             Example: "CREATE TABLE users (
     -> user_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    -> fullname VARCHAR(20) NOT NULL,
     -> type VARCHAR(20) NOT NULL,
     -> email VARCHAR(30) NOT NULL UNIQUE,
     -> password VARCHAR(10) NOT NULL,
