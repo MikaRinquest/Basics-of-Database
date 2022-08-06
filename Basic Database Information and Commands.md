@@ -61,7 +61,7 @@ Basic Database Information and Commands
     		BIGINT
     		FLOAT
     		DOUBLE
-    		DECIMAL(p,a)- Allows the database to input deciamls as an option.
+    		DECIMAL(p,a)- Allows the database to input decimals as an option.
     			p= the maximum amount of characters that can be input on either side of the comma.
     			a= the amount of numbers that will show up in the table.
 
