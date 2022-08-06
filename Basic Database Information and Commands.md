@@ -87,6 +87,14 @@ Basic Database Information and Commands
 
     	{Does not have to be all caps} CREATE TABLE TABLENAME (FIRSTROW DATATYPE, SECONDROW DATA TYPE, etc) [One of the rows must have "PRIMARY KEY" inside]
     		auto-_increment(start)= Tells the table to start with a specific number. Every number after the first will have one added to it.
+            Example: "CREATE TABLE users (
+    -> user_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    -> type VARCHAR(20) NOT NULL,
+    -> email VARCHAR(30) NOT NULL UNIQUE,
+    -> password VARCHAR(10) NOT NULL,
+    -> shipping_address VARCHAR(25) NOT NULL,
+    -> phone_number VARCHAR(12) NOT NULL)
+    -> ;"
 
 ## MySQL Commands
 
