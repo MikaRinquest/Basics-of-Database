@@ -63,7 +63,7 @@ Basic Database Information and Commands
     		DOUBLE
     		DECIMAL(p,a)- Allows the database to input decimals as an option.
     			p= the maximum amount of characters that can be input on either side of the comma.
-    			a= the amount of numbers that will show up in the table.
+    			a= the amount of numbers that will show up in the table AFTER the decimal point.
 
     	Date and Time:
     		DATE
